@@ -18,6 +18,7 @@ export interface FullScreenProps {
   handle: FullScreenHandle;
   onChange?: (state: boolean, handle: FullScreenHandle) => void;
   className?: string;
+  children?: React.ReactNode;
 }
 
 export function useFullScreenHandle(): FullScreenHandle {
